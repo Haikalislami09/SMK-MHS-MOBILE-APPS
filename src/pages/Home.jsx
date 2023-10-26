@@ -19,7 +19,7 @@ const Home = ({navigation}) => {
           <Text style={{ fontWeight:'bold', color:'black', fontSize: 18}}>Menu Makanan</Text> 
           <TouchableOpacity  onPress={() => navigation.navigate('Detail')}>
             <Image source={{uri :'https://awsimages.detik.net.id/community/media/visual/2021/04/22/5-makanan-enak-dari-indonesia-dan-malaysia-yang-terkenal-enak-5.jpeg?w=600&q=90' }} style={{width:190, height:180, borderRadius:6, marginTop:11}} />
-            <Text style={{ fontWeight:'bold', color:'black', fontSize: 18, marginTop:10}}>Mie ayam</Text>
+            <Text style={{ fontWeight:'bold', color:'black', fontSize: 18, marginTop:10}}>Nasi gowrrengg</Text>
             <Text style={{ fontWeight:'bold', color:'red', fontSize: 18, marginTop:4}}>Rp.20.000</Text>
           </TouchableOpacity>
           </View>
