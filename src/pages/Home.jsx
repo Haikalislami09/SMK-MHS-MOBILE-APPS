@@ -14,7 +14,7 @@ const Home = ({navigation}) => {
         <Text style={{ marginLeft:16, fontSize:30, fontWeight:'bold', color:'black'}} >Kantin Multistudi</Text> 
       </View>
       <View style={{flexDirection:'row',}}>
-        <View style={{flex:1, padding:12}}>
+        <View style={{flex:1, padding:12,}}>
           <View style={{height: 150, }}>
           <Text style={{ fontWeight:'bold', color:'black', fontSize: 18}}>Menu Makanan</Text> 
           <TouchableOpacity  onPress={() => navigation.navigate('Detail')}>

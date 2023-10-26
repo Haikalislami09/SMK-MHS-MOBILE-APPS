@@ -9,8 +9,8 @@ const Stack = createNativeStackNavigator();
 const Router = () => {
   return (
     <Stack.Navigator options={{headerShadowVisible: 'false'}}>
-    <Stack.Screen name="Home" component={Home}/>
-    <Stack.Screen name="Detail" component={Detail} />
+    <Stack.Screen name="Home" component={Home}  options={{ headerShown: false }}/>
+    <Stack.Screen name="Detail" component={Detail}  options={{ headerShown: false }} />
   </Stack.Navigator>
   )
 }
