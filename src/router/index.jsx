@@ -4,6 +4,7 @@ import React from 'react'
 import Detail from '../pages/Detail'
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Home from '../pages/Home';
+import Bayar from '../pages/Bayar';
 const Stack = createNativeStackNavigator();
 
 const Router = () => {
@@ -11,6 +12,7 @@ const Router = () => {
     <Stack.Navigator options={{headerShadowVisible: 'false'}}>
     <Stack.Screen name="Home" component={Home}  options={{ headerShown: false }}/>
     <Stack.Screen name="Detail" component={Detail}  options={{ headerShown: false }} />
+    <Stack.Screen name="Bayar" component={Bayar}  options={{ headerShown: false }} />
   </Stack.Navigator>
   )
 }

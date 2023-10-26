@@ -27,9 +27,11 @@ const Detail = ({navigation}) => {
         <TextInput style={{borderWidth:1,borderRadius:12,padding:10}} placeholder='Masukkan pesan..' />
       </View>
       </View>
+      <TouchableOpacity onPress={() => navigation.navigate('Bayar')} >
        <View style={{width:350,alignSelf:'center',marginTop:70,height:52, backgroundColor:'red',borderRadius:99, marginBottom:25 }}>
         <Text style={{alignSelf:'center',paddingVertical:14,fontSize:16,fontWeight:'bold',color:'black'}} >Pesan sekarang</Text>
-      </View>
+       </View>
+       </TouchableOpacity>
     </ScrollView>
   )
 }
